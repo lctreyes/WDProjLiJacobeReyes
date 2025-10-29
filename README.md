@@ -12,24 +12,24 @@ Step into the glamorous and fashionable world of Barbie! This website showcases 
 
 
 **Barbie Movies: Lights, Camera, Action!**\
-Purpose: Showcase Barbie’s cinematic adventures and timeless storytelling.
-**Content:**\
+Purpose: Showcase Barbie’s cinematic adventures and timeless storytelling.\
+**Content:**
 - List of Barbie movies with posters and links.
 - Timeline of movie releases from her early to modern movies.
   <img width="1414" height="2000" alt="MOVIES" src="https://github.com/user-attachments/assets/edcc644a-3dad-462c-ab56-a1d8809295f9" />
 
 
 **Barbie Series: Adventures in Friendship**\
-Purpose: Explore Barbie’s TV and online series that highlight fun, friendship, and creativity.
-**Content:**\
+Purpose: Explore Barbie’s TV and online series that highlight fun, friendship, and creativity.\
+**Content:**
 - Overview of series such as Barbie: Life in the Dreamhouse and Barbie Dreamhouse Adventures.
 - Episode highlights and memorable quotes.
   <img width="1414" height="2000" alt="SHOWS" src="https://github.com/user-attachments/assets/9af8e924-b6eb-4d4c-abb6-e0c8f1a2ee0d" />
 
 
 **Main Characters: Meet Barbie and Her Friends 💋**\
-Purpose: Introduce Barbie and the main characters that make her world shine.
-**Content:**\
+Purpose: Introduce Barbie and the main characters that make her world shine.\
+**Content:**
 - Profiles of Barbie Roberts, Ken, Skipper, Stacie, Chelsea, and her parents.
 - Description of each character’s personality, hobbies, and role in Barbie’s life.
 - “Fun Fact” section about each character.
@@ -38,8 +38,8 @@ Purpose: Introduce Barbie and the main characters that make her world shine.
 
 
 **Barbie’s Closet: Style through Times👗**\
-This will highlight Barbie’s influence on fashion and her ever-changing wardrobe.
-**Content:**\
+This will highlight Barbie’s influence on fashion and her ever-changing wardrobe.\
+**Content:**
 - Showcase of Barbie’s most iconic outfits!
 - Style gallery (career looks, fantasy gowns, casual outfits, etc.).
 - “Behind the Design” section featuring Barbie’s fashion collaborations.
