@@ -1,6 +1,6 @@
 # WDProjLiJacobeReyes
-**LOGO**
 ![BARBIE](https://github.com/user-attachments/assets/07d41886-8b4e-4332-9971-682e4cc083e7)
+**LOGO**
 
 **Home: Welcome to Barbie’s World 🏠**
 Step into the glamorous and fashionable world of Barbie! This website showcases a brief history on Barbie’s journey from her 1959 debut to her modern-day adventures in film, fashion, and friendship. Explore her movies, TV series, stylish outfits, and amazing friends who have inspired generations. “Welcome to Barbie’s World” brings confidence and imagination to every visitor.
