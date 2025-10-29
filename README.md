@@ -4,8 +4,8 @@
 
 
 **Home: Welcome to Barbie’s World 🏠**\
-Step into the glamorous and fashionable world of Barbie! This website showcases a brief history on Barbie’s journey from her 1959 debut to her modern-day adventures in film, fashion, and friendship. Explore her movies, TV series, stylish outfits, and amazing friends who have inspired generations. “Welcome to Barbie’s World” brings confidence and imagination to every visitor.
-**Content:**\
+Step into the glamorous and fashionable world of Barbie! This website showcases a brief history on Barbie’s journey from her 1959 debut to her modern-day adventures in film, fashion, and friendship. Explore her movies, TV series, stylish outfits, and amazing friends who have inspired generations. “Welcome to Barbie’s World” brings confidence and imagination to every visitor.\
+**Content:**
 - Brief history of Barbie from her 1959 debut to her modern evolution.
 - Highlights of what visitors can explore across the site (Movies, Series, Characters, Fashion).
   <img width="1414" height="2000" alt="HOME" src="https://github.com/user-attachments/assets/b407bf50-6494-4ebc-b3e5-ce4b2d6b2d5a" />
