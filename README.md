@@ -58,3 +58,5 @@ This will highlight Barbie’s influence on fashion and her ever-changing wardro
 4. **Navigation transitions** - for a smooth and dynamic browsing experience between pages.
 
 https://barbiemovies.fandom.com/wiki/List_of_Barbie_Movies
+
+https://barbie.fandom.com/wiki/Barbie_Wiki
