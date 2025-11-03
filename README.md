@@ -2,7 +2,7 @@
 **LOGO**\
 ![BARBIE](https://github.com/user-attachments/assets/5e1a4337-4ef3-4a9c-b262-6fd3fc741f35)
 
-
+TITLE: BarbieLAT (Barbie: Legacies and Tales)
 **Home: Welcome to Barbie’s World 🏠**\
 Step into the glamorous and fashionable world of Barbie! This website showcases a brief history on Barbie’s journey from her 1959 debut to her modern-day adventures in film, fashion, and friendship. Explore her movies, TV series, stylish outfits, and amazing friends who have inspired generations. “Welcome to Barbie’s World” brings confidence and imagination to every visitor.\
 **Content:**
