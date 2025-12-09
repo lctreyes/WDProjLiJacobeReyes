@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Birthstone&family=Lobster&family=Londrina+Solid:wght@100;300;400;900&family=Righteous&display=swap');
+:root{
+    --primary_color: #ff2d92;
+    --white_color: #fff;
+
+    --agbalumo: "agbalumo";
+    --righteous: "righteous";
+
+    --box_shadow: 10px 10px 5px rgba(0,0,0,.3);
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Londrina solid";
+}
+
+/*-----------------UTILITY--------------------*/
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+/*-----------------UTILITY--------------------*/
+
+
+
+/*------------------HEADER---------------------*/
+header{
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    position: fixed;
+    padding: 1.5rem 0;
+}
+.logo img{
+    display: block;
+    object-fit: cover;
+    width: 10%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav li{
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.navbar nav li a{
+    font-size: 1.3rem;
+    color: var(--white_color);
+    position: relative;
+}
+nav a {
+position: relative;
+padding: 10px 20px;
+border-radius: 20px;
+transition: background 0.3s ease;
+}
+nav a:hover {
+background: rgba(255,182,216,0.6);
+}
+
+.btn{
+    font-size: 2.2rem;
+    color: var(--white_color);
+    cursor: pointer;
+    display: none;
+}
+/*------------------HEADER---------------------*/
+
+
+/*------------------SHOWCASE---------------------*/
+#showcase{
+    background: url("../public/asset/cover.jpg") no-repeat center center/cover;
+    min-height: 100vh;
+    position: relative;
+    z-index: -10;
+}
+
+#showcase::before{
+    content: "";
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -11;
+}
+
+#showcase .content{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+min-height: 100vh;
+}
+
+#showcase .content h2{
+    font-size: 5rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#showcase .content h3{
+    font-size: 1.5rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*------------------SHOWCASE---------------------*/
+
+
+/*------------------SPECIAL OFFER---------------------*/
+#sp_offer{
+    padding: 10rem 0;
+}
+
+.sp_content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    grid-gap: 4rem;
+}
+
+.headings h2{
+    font-size: 4rem;
+    font-family: var(--agbalumo);
+    color: #ff2d92;
+}
+
+.headings h3{
+    font-size: 2rem;
+    font-family: "birthstone";
+    left: 25px;
+}
+
+.asset_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.asset{
+    display: flex;
+    align-items: center;
+}
+
+.asset img{
+    display: block;
+    object-fit: cover;
+    width: 20%;
+}
+.content_for_asset{
+    padding-left: 3rem;
+}
+
+.content_for_asset h4{
+    font-size: 2rem;
+    scroll-padding-block-end: 0.5rem;
+    font-family: var(--agbalumo);
+}
+
+.content_for_asset p{
+    font-size: 1.2rem;
+    font-family: var(--white_color);
+    line-height: 1.5;
+    border: 5px solid #ff4fa3;
+    padding: 1rem;
+    border-radius: 20%;
+}
+
+.right_side_content{
+    width: 100%;
+}
+
+
+.right_side_content img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    margin-left: auto;
+}
+/*------------------SHPECIAL OFFER---------------------*/

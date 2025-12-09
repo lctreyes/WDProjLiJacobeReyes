@@ -1,0 +1,12 @@
+/*large screen is 1070px*/
+
+@media(max-width:1070px){
+    html{
+        font-size: 60%;
+    }
+
+    .container{
+        padding: 0 60px;
+    }
+}
+
