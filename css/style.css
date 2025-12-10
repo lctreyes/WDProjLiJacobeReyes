@@ -27,6 +27,34 @@ a{
     margin: 0 auto;
     padding: 0 80px;
 }
+
+.main_heading{
+    font-size: 4rem;
+    font-family: var(--righteous);
+    text-align: center;
+}
+
+.main_heading-1{
+    font-size: 4rem;
+    font-family: var(--righteous);
+    text-align: center;
+    color: black;
+}
+
+.normal_heading{
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+    text-align: center;
+}
+
+.normal_heading-1{
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(--primary_color);
+    text-align: center;
+}
+
 /*-----------------UTILITY--------------------*/
 
 
@@ -37,6 +65,7 @@ header{
     background: rgba(0,0,0,0.6);
     position: fixed;
     padding: 1.5rem 0;
+    z-index: 100;
 }
 .logo img{
     display: block;
@@ -129,75 +158,258 @@ min-height: 100vh;
 /*------------------SHOWCASE---------------------*/
 
 
-/*------------------SPECIAL OFFER---------------------*/
+/*------------------SPECIAL OFFER (Barbie Section) ---------------------*/
 #sp_offer{
     padding: 10rem 0;
+    background: #ffe4ec; /* soft pink background */
 }
 
 .sp_content{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1.2fr 1fr;
     width: 100%;
-    grid-gap: 4rem;
+    align-items: center;
+    gap: 4rem;
+}
+
+/* HEADINGS */
+.headings h3{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: "Birthstone";
+    color: #e75480;
+    margin-bottom: 0.5rem;
 }
 
 .headings h2{
-    font-size: 4rem;
-    font-family: var(--agbalumo);
-    color: #ff2d92;
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--righteous);
+    color: var(--primary_color);
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
 }
 
-.headings h3{
-    font-size: 2rem;
-    font-family: "birthstone";
-    left: 25px;
-}
-
+/* ASSET LIST */
 .asset_content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem 0;
+    background: white;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--box_shadow);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+/* HOVER EFFECT */
+.asset_content:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.25);
 }
 
 .asset{
     display: flex;
     align-items: center;
+    gap: 2rem;
 }
 
+/* IMAGES */
 .asset img{
     display: block;
     object-fit: cover;
-    width: 20%;
-}
-.content_for_asset{
-    padding-left: 3rem;
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+    transition: transform 0.35s ease;
 }
 
+.asset_content:hover img{
+    transform: scale(1.07);
+}
+
+/* TEXT */
 .content_for_asset h4{
     font-size: 2rem;
-    scroll-padding-block-end: 0.5rem;
     font-family: var(--agbalumo);
+    color: #d6336c;
+    margin-bottom: 0.5rem;
 }
 
 .content_for_asset p{
-    font-size: 1.2rem;
-    font-family: var(--white_color);
-    line-height: 1.5;
-    border: 5px solid #ff4fa3;
-    padding: 1rem;
-    border-radius: 20%;
+    font-size: 1.3rem;
+    color: #444;
+    line-height: 1.6;
 }
 
+/* RIGHT SIDE — IMAGE + BUBBLE */
 .right_side_content{
-    width: 100%;
+    position: relative;
 }
-
 
 .right_side_content img{
-    display: block;
     width: 100%;
+    height: 500px;
     object-fit: cover;
-    margin-left: auto;
+    border-radius: 25px;
+    box-shadow: var(--box_shadow);
 }
-/*------------------SHPECIAL OFFER---------------------*/
+
+/* PINK BUBBLE BUTTON */
+.over_asset{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--primary_color);
+    color: var(--white_color);
+    padding: 3rem 4rem;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    transition: transform 0.35s ease;
+}
+
+.over_asset:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.over_asset h2{
+    font-size: 2.5rem;
+    font-family: var(--righteous);
+    color: white;
+}
+
+
+/*-----------------MOVIE--------------------*/
+#movie_lover{
+    padding: 10rem 0;
+    background: #ffd1dc;
+}
+
+.movie_lover_container{
+    margin: 3rem 0;;
+}
+
+.btn.continer{
+    margin: 5rem 0;
+    width: 100%;
+    display: inline-block;
+    color: black;
+    text-align: center;
+}
+
+.btn-cat{
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    margin: 0 2rem;
+    border: 1px solid #ddd;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-cat:hover, .active_btn{
+    background: var(--primary_color);
+    color: var(--white_color);
+}
+/*-----------------MOVIE--------------------*/
+#movie_lover{
+    padding: 10rem 0;
+    background: #ffd1dc;
+}
+
+.movie_lover_container{
+    margin: 3rem 0;
+}
+
+.btn_continer{
+    margin: 5rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-cat{
+    padding: 0.7rem 1.2rem;
+    cursor: pointer;
+    margin: 0 2rem;
+    border: 1px solid #ddd;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-cat:hover, .active_btn{
+    background: var(--primary_color);
+    color: var(--white_color);
+}
+
+/* GRID FOR MOVIES */
+.movie_item_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
+}
+
+/* CARD */
+.asset_cards{
+    background: white;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: var(--box_shadow);
+    text-align: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* CARD HOVER EFFECT */
+.asset_cards:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.25);
+}
+
+/* IMAGE */
+.asset_cards img{
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+/* IMAGE HOVER ZOOM */
+.asset_cards:hover img{
+    transform: scale(1.05);
+}
+
+/* MOVIE TITLE */
+.asset_cards p{
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    font-family: var(--righteous);
+    color: black;
+}
+/*-----------------MOVIE--------------------*/
+#show_lover{
+    background: white ;
+    padding: 6rem 0;
+}
+/*-----------------FRENS--------------------*/
+#frens{
+    padding: 10rem 0;
+}
+
+.frens_container{
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.frens_cards{
+    border: 1px solid #e75480
+    width: 25%;
+}
+
+.frens_content{
+    padding: 2rem 0;
+}
+
+.position{
+    font-size: 1.5rem;
+    color: var(--primary_color);
+}
+/*-----------------FRENS--------------------*/

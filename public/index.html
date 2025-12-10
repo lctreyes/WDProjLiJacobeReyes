@@ -7,6 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="/WDProjLiJacobeReyes/css/style.css">
         <link rel="stylesheet" href="/WDProjLiJacobeReyes/css/responsive.css">
+        <link
+rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
         <title> BarbieLAT</title>
     </head>
 <body>
@@ -19,14 +23,14 @@
         </div>
     <nav>
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Menus</a></li>
-        <li><a href="#">Reservation</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#movie_lover">Movies</a></li>
+        <li><a href="#show_lover">Shows</a></li>
+        <li><a href="#frens">Friends</a></li>
+        <li><a href="#">Closet</a></li>
+        
     </nav>
     <div class="btn">
-        <i class="fas fa-bars menu-btn"></i>
+        <i class="fas fa-bars movie-btn"></i>
     </div>
     </div>
     </div>
@@ -47,65 +51,271 @@
 </main>
 <!-----------showcase closeE----------------------------->
 
-<!-----------barbie----------------------------->
+<!-----------barbie (SPECIAL OFFER) ----------------------------->
 <aside id="sp_offer">
     <div class="container">
         <div class="sp_content">
+
+            <!-- LEFT SIDE CONTENT -->
             <div class="left_side_content">
-            <div class="headings">
-                <h3>Welcome to Barbie's World!</h3>
-                <h2> SPECIAL WORDS</h2>
-            </div>
-            <div class="asset_content">
-                <div class="asset">
-                    <img src="./asset/barbie.jpg" >
-                    <div class="content_for_asset">
-                        <h4>Barbie</h4>
-                        <p>
-                            This website showcases a brief history on Barbie’s journey from 
-                            her 1959 debut to her modern-day adventures in film, fashion, and friendship
-                        </p>
+
+                <div class="headings">
+                    <h3>Welcome to Barbie's World!</h3>
+                    <h2>Special Words</h2>
+                </div>
+
+                <!-- BARBIE CARD -->
+                <div class="asset_content">
+                    <div class="asset">
+                        <img src="./asset/barbie.jpg">
+                        <div class="content_for_asset">
+                            <h4>Barbie</h4>
+                            <p>
+                                Discover Barbie’s evolution — from her 1959 debut to her modern-day adventures in film,
+                                fashion, friendship, and empowerment.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="asset_content">
-                <div class="asset">
-                    <img src="./asset/ken.jpg" >
-                    <div class="content_for_asset">
-                        <h4>Ken</h4>
-                        <p>
-                            Explore her movies, TV series, stylish outfits, and amazing friends who have inspired generations
-                        </p>
+
+                <!-- KEN CARD -->
+                <div class="asset_content">
+                    <div class="asset">
+                        <img src="./asset/ken.jpg">
+                        <div class="content_for_asset">
+                            <h4>Ken</h4>
+                            <p>
+                                Dive into her movies, stylish outfits, unforgettable characters, and stories that inspired
+                                generations to dream big.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="asset_content">
-                <div class="asset">
-                    <img src="./asset/raquelle.jpg" >
-                    <div class="content_for_asset">
-                        <h4>Raquelle</h4>
-                        <p>
-                            BarbieLaT brings confidence and imagination to every visitor.
-                        </p>
+
+                <!-- RAQUELLE CARD -->
+                <div class="asset_content">
+                    <div class="asset">
+                        <img src="./asset/raquelle.jpg">
+                        <div class="content_for_asset">
+                            <h4>Raquelle</h4>
+                            <p>
+                                BarbieLaT brings confidence, imagination, and creativity to every visitor exploring this 
+                                magical pink universe.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>   
+
             </div>
+
+            <!-- RIGHT SIDE IMAGE + BUBBLE -->
             <div class="right_side_content">
                 <div class="asset_right_side">
-                    <img src="./asset/righjt.jpg">
+                    <img src="./asset/righjt.jpg" alt="Barbie Collection">
+                    <div class="over_asset">
+                        <a href="#"><h2>Movies</h2></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</aside>
+<!-----------barbie (SPECIAL OFFER) END ----------------------------->
+
+
+
+<!-----------MOVIES---------------------------->
+<section id="movie_lover">
+    <div class="container">
+        <h3 class="normal_heading-1">Barbie Movies</h3>
+        <h2 class="main_heading">Lights, Camera, Action!</h2>
+        <div class="movie_lover_container">
+            <div class="btn_continer">
+            <button class="btn-cat active_btn" data-id="All">All Movies</button>
+            <button class="btn-cat" data-id="Adventure">Adventure</button>
+            <button class="btn-cat" data-id="Romance">Romance</button>
+            <button class="btn-cat" data-id="Fantasy">Fantasy</button>
+            <button class="btn-cat" data-id="Comedy">Comedy</button>
+            <button class="btn-cat" data-id="Live">Live Actions</button>    
+            </div>
+        <div class="movie_item_container">
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p>Barbie: Star Light Adventure (2016)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie: Spy Squad (2016)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie: Epic Road Trip (2022)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p>Barbie: Fairytopia (2005)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie Mariposa and Her Butterfly Fairy Friends (2008)</p>
+    </div>
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie: The Pearl Princess (2014)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p>Barbie as The Princess and the Pauper (2004)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie in the 12 Dancing Princesses (2006)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p>Barbie and the Diamond Castle (2008)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p>Barbie Diaries (2006)</p>
+    </div>
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p>Barbie: A Fashion Fairytale (2010)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie: Princess Charm School (2011)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p>Barbie (2023)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie & Teresa: Recipe for Friendship (2025)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/raquelle.jpg" alt="">
+        <p> Barbie Princess Adventures (2020)</p>
+    </div>
+
+</div>
+        </div>
+    </div>
+
+</section>
+
+<!----------MOVIES----------------------------->
+
+
+<!----------showowow---------------------------->
+
+<section id="show_lover">
+    <div class="container">
+        <h3 class="normal_heading-1">Barbie Series</h3>
+        <h2 class="main_heading">Adventures in Friendship</h2>
+        <div class="movie_lover_container">
+        <div class="movie_item_container">
+
+    <div class="asset_cards">
+        <img src="./asset/ken.jpg" alt="">
+        <p>Barbie Life in the Dreamhouse (2012)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/ken.jpg" alt="">
+        <p>Dreamtopia (2016)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/ken.jpg" alt="">
+        <p>Barbie Dreamhouse Adventures (2018)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/ken.jpg" alt="">
+        <p>It Takes Two (2022)</p>
+    </div>
+
+    <div class="asset_cards">
+        <img src="./asset/ken.jpg" alt="">
+        <p>Barbie and Stacie to the Rescue (2024)</p>
+    </div>
+    
+</div>
+        </div>
+    </div>
+
+</section>
+
+<!----------SHWOOSOSOSOSO----------------------------->
+
+
+
+<!-----------FRENS---------------------------->
+<section id="frens">
+    <div class="container swiper mySwiper">
+        <h3 class="normal_heading-1">Main Characters</h3>
+        <h2 class="main_heading">Meet Barbie and Her Friends💋</h2>
+        <div class="frens_container swiper-wrapper">
+
+            <div class="frens_cards swiper-slide">
+                <img src="./asset/ken.jpg" alt="">
+                <div class="frens_content">
+                    <h2> Name of character</h2>
+                    <p> description</p>
+                </div>
+            </div>
+            <div class="frens_cards swiper-slide">
+                <img src="./asset/ken.jpg" alt="">
+                <div class="frens_content">
+                    <h2> Name of character</h2>
+                    <p> description</p>
+                </div>
+            </div>
+            <div class="frens_cards swiper-slide">
+                <img src="./asset/ken.jpg" alt="">
+                <div class="frens_content">
+                    <h2> Name of character</h2>
+                    <p> description</p>
+                </div>
+            </div>
+            <div class="frens_cards swiper-slide">
+                <img src="./asset/ken.jpg" alt="">
+                <div class="frens_content">
+                    <h2> Name of character</h2>
+                    <p> description</p>
+                </div>
+            </div>
+            <div class="frens_cards swiper-slide">
+                <img src="./asset/ken.jpg" alt="">
+                <div class="frens_content">
+                    <h2> Name of character</h2>
+                    <p> description</p>
                 </div>
             </div>
         </div>
     </div>
-
-</aside>
-
-<!-----------barbie----------------------------->
+</section>
+<!-----------FRENS---------------------------->
 
 
-
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="/WDProjLiJacobeReyes/js/script.js"></script>
 </body>    
 </html>

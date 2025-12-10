@@ -8,5 +8,61 @@
     .container{
         padding: 0 60px;
     }
+.asset_content{
+    padding: 2rem 0;
+}
+}
+
+@media (max-width: 900px){
+html{
+font-size: 55%;
+}
+.container{
+padding: 0 40px;
+}
+
+.btn{
+display: block;
+}
+
+.navbar nav{
+flex-direction: column;
+position: fixed;
+min-width: 100%;
+min-height: 60vh;
+top: 0;
+right: 100%;
+background-color: black;
+align-items: flex-start;
+justify-content: center;
+transition: all 0.5s ease-in-out;
+}
+
+nav.active{
+right: 0%;
+transition: all 1s ease-in;
+}
+
+.navbar nav li{
+margin: 2rem 4rem;
+}
+.navbar nav li a{
+font-size: 1.4rem;
+color: var(--white_color);
+position: relative;
+}
+
+.close-btn{
+position: absolute;
+top: 0;
+left: 90%;
+margin: 25px;
+}
+}
+
+@media(max-width: 768px){
+    .sp_content{
+        grid-template-columns: repeat(1,1fr);
+    }
 }
 
