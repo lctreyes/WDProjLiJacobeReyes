@@ -426,3 +426,12 @@ section {
     margin-top: 3rem;
     justify-items: center;
 }
+
+
+.closet_item_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
+    justify-items: center;
+}
