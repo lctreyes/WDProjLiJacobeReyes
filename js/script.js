@@ -23,91 +23,91 @@ const movie = [
         id: 1,
         title: "Barbie: Star Light Adventure (2016)",
         Category: "Adventure",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 2,
         title: "Barbie: Spy Squad (2016)",
         Category: "Adventure",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 3,
         title: "Barbie: Epic Road Trip (2022)",
         Category: "Adventure",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 4,
         title: "Barbie: Fairytopia (2005)",
         Category: "Fantasy",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 5,
         title: "Barbie Mariposa (2008)",
         Category: "Fantasy",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 6,
         title: "Barbie: The Pearl Princess (2014)",
         Category: "Fantasy",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 7,
         title: "Barbie as The Princess and the Pauper (2004)",
         Category: "Romance",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 8,
         title: "Barbie in the 12 Dancing Princesses (2006)",
         Category: "Romance",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 9,
         title: "Barbie and the Diamond Castle (2008)",
         Category: "Romance",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 10,
         title: "Barbie Diaries (2006)",
         Category: "Comedy",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 11,
         title: "Barbie: A Fashion Fairytale (2010)",
         Category: "Comedy",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 12,
         title: "Barbie: Princess Charm School (2011)",
         Category: "Comedy",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 13,
         title: "Barbie (2023)",
         Category: "Live",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 14,
         title: "Barbie & Teresa: Recipe for Friendship (2025)",
         Category: "Live",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     },
     {
         id: 15,
         title: "Barbie Princess Adventures (2020)",
         Category: "Live",
-        img: "./asset/raquelle.jpg"
+        img: "/public/asset/raquelle.jpg"
     }
 ];
 
