@@ -19,6 +19,7 @@ if (closeBTN) {
 
 // Movie data
 const movie = [
+    // ADVENTURE
     {
         id: 1,
         title: "Barbie: Star Light Adventure (2016)",
@@ -37,6 +38,8 @@ const movie = [
         Category: "Adventure",
         img: "./public/asset/raquelle.jpg"
     },
+
+    // FANTASY
     {
         id: 4,
         title: "Barbie: Fairytopia (2005)",
@@ -45,7 +48,7 @@ const movie = [
     },
     {
         id: 5,
-        title: "Barbie Mariposa (2008)",
+        title: "Barbie Mariposa and Her Butterfly Fairy Friends (2008)",
         Category: "Fantasy",
         img: "./public/asset/raquelle.jpg"
     },
@@ -55,6 +58,8 @@ const movie = [
         Category: "Fantasy",
         img: "./public/asset/raquelle.jpg"
     },
+
+    // ROMANCE
     {
         id: 7,
         title: "Barbie as The Princess and the Pauper (2004)",
@@ -73,6 +78,8 @@ const movie = [
         Category: "Romance",
         img: "./public/asset/raquelle.jpg"
     },
+
+    // COMEDY
     {
         id: 10,
         title: "Barbie Diaries (2006)",
@@ -91,6 +98,8 @@ const movie = [
         Category: "Comedy",
         img: "./public/asset/raquelle.jpg"
     },
+
+    // LIVE ACTION
     {
         id: 13,
         title: "Barbie (2023)",
@@ -110,6 +119,7 @@ const movie = [
         img: "./public/asset/raquelle.jpg"
     }
 ];
+
 
 const SectionCenter = document.querySelector(".movie_item_container");
 const filterBtns = document.querySelectorAll(".btn-cat");
