@@ -142,7 +142,7 @@ rel="stylesheet"
         <div class="movie_item_container">
 
     <div class="asset_cards">
-        <img src="/public/asset/raquelle.jpg" alt="">
+        <img src="./public/asset/raquelle.jpg" alt="">
         <p>Barbie: Star Light Adventure (2016)</p>
     </div>
 
@@ -267,53 +267,58 @@ rel="stylesheet"
 
 
 
-<!-----------FRENS---------------------------->
-<section id="frens">
-    <div class="container swiper mySwiper">
-        <h3 class="normal_heading-1">Main Characters</h3>
-        <h2 class="main_heading">Meet Barbie and Her Friends💋</h2>
-        <div class="frens_container swiper-wrapper">
+<!-- FRENS SECTION -->
+<section id="frens" class="slider-section">
+  <h2 class="section-title">Meet Barbie & Friends 💗</h2>
+  <div class="slider" id="frensSlider">
 
-            <div class="frens_cards swiper-slide">
-                <img src="./asset/ken.jpg" alt="">
-                <div class="frens_content">
-                    <h2> Name of character</h2>
-                    <p> description</p>
-                </div>
-            </div>
-            <div class="frens_cards swiper-slide">
-                <img src="./asset/ken.jpg" alt="">
-                <div class="frens_content">
-                    <h2> Name of character</h2>
-                    <p> description</p>
-                </div>
-            </div>
-            <div class="frens_cards swiper-slide">
-                <img src="./asset/ken.jpg" alt="">
-                <div class="frens_content">
-                    <h2> Name of character</h2>
-                    <p> description</p>
-                </div>
-            </div>
-            <div class="frens_cards swiper-slide">
-                <img src="./asset/ken.jpg" alt="">
-                <div class="frens_content">
-                    <h2> Name of character</h2>
-                    <p> description</p>
-                </div>
-            </div>
-            <div class="frens_cards swiper-slide">
-                <img src="./asset/ken.jpg" alt="">
-                <div class="frens_content">
-                    <h2> Name of character</h2>
-                    <p> description</p>
-                </div>
-            </div>
-        </div>
+    <div class="slide-card frens-card">
+      <img src="./asset/ken.jpg" alt="Barbie">
+      <h3>Barbie</h3>
+      <p>Confident, iconic, and always ready to sparkle.</p>
     </div>
-</section>
-<!-----------FRENS---------------------------->
 
+    <div class="slide-card frens-card">
+      <img src="./asset/ken.jpg" alt="Ken">
+      <h3>Ken</h3>
+      <p>Supportive, stylish, and Barbie’s number one.</p>
+    </div>
+
+    <div class="slide-card frens-card">
+      <img src="./asset/ken.jpg" alt="Raquelle">
+      <h3>Raquelle</h3>
+      <p>Competitive, fierce, and fab in every outfit.</p>
+    </div>
+
+    <div class="slide-card frens-card">
+      <img src="./asset/ken.jpg" alt="Skipper">
+      <h3>Skipper</h3>
+      <p>Tech-savvy and creative with a cool vibe.</p>
+    </div>
+
+    <div class="slide-card frens-card">
+      <img src="./asset/ken.jpg" alt="Teresa">
+      <h3>Teresa</h3>
+      <p>Kind-hearted, loyal, and full of imagination.</p>
+    </div>
+
+  </div>
+  <button class="slide-btn left" onclick="slideFrens(-1)">&#10094;</button>
+  <button class="slide-btn right" onclick="slideFrens(1)">&#10095;</button>
+</section>
+
+<!-- CLOTHES SLIDER -->
+<section id="clothes" class="slider-section">
+  <h2 class="section-title">Barbie Clothes</h2>
+  <div class="slider" id="clothesSlider">
+    <div class="slide-card img-card"><img src="./asset/raquelle.jpg" alt="Raquelle fit"></div>
+    <div class="slide-card img-card"><img src="./asset/raquelle.jpg" alt="Raquelle fit"></div>
+    <div class="slide-card img-card"><img src="./asset/raquelle.jpg" alt="Raquelle fit"></div>
+  </div>
+  <button class="slide-btn left" onclick="slideClothes(-1)">&#10094;
+  </button>
+  <button class="slide-btn right" onclick="slideClothes(1)">&#10095;</button>
+</section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="/WDProjLiJacobeReyes/js/script.js"></script>
