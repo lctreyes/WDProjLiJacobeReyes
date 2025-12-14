@@ -120,7 +120,6 @@ const movie = [
     }
 ];
 
-
 const SectionCenter = document.querySelector(".movie_item_container");
 const filterBtns = document.querySelectorAll(".btn-cat");
 
@@ -151,3 +150,17 @@ filterBtns.forEach(function (btn) {
         displayMovieItem(movieCategory);
     });
 });
+
+// Display movies on screen
+function displayMovieItem(movieItem) {
+    let displayMovie = movieItem.map(function (item) {
+        return `
+        <div class="asset_cards">
+            <img src="${item.img}" alt="">
+            <p>${item.title}</p>
+        </div>`;
+    });
+
+    SectionCenter.innerHTML = displayMovie.join("");
+}
+
