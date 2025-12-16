@@ -64,13 +64,13 @@ const movie = [
         id: 7,
         title: "Barbie as The Princess and the Pauper (2004)",
         Category: "Romance",
-        img: "./public/asset/movie7.png"
+        img: "./public/asset/movie7.jpg"
     },
     {
         id: 8,
         title: "Barbie in the 12 Dancing Princesses (2006)",
         Category: "Romance",
-        img: "./public/asset/movie8.png"
+        img: "./public/asset/movie8.jpg"
     },
     {
         id: 9,
