@@ -598,6 +598,7 @@ footer {
 }
 
 .paa li{
+    text-align: center;
     text-decoration: none;
     color: #d6336c;
 }
