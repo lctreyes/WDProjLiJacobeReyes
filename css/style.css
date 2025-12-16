@@ -586,3 +586,18 @@ footer {
       margin: 5px 0;
     }
 
+.paa{
+    text-align: center;
+    padding: 0px;
+    background-color: #f2b6cc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #d6336c;
+}
+
+.paa li{
+    text-decoration: none;
+    color: #d6336c;
+}
