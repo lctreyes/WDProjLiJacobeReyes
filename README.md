@@ -55,8 +55,8 @@ To increase user engagement, BarbieLaT will include a mini interactive game that
 **Enter Barbie’s Playhouse**\
 *Form Description*\
 A simple login form will be added to the website to allow users access to a Barbie-themed mini game\
-**Form Elements Used**\
-*Text input:*
+\**Form Elements Used**\
+\*Text input:*
 - Username
 - Password input
 - Login button
@@ -69,16 +69,16 @@ Login information will be stored using JavaScript Local Storage on the user’s 
 
 **New Webpages Related to the Game**\
 Barbie Game Login\
-*Purpose:*\
+*Purpose:*
 - Collect login information before allowing access to the game.
-*Functionality:*\
+\*Functionality:*
 - Saves user input using JavaScript.
 - Redirects to the Game Page upon successful login.
 
-**Barbie Fashion Game**
+**Barbie Fashion Game**\
 *Purpose:*
 - Provide a fun, interactive mini game experience.
-*Features:*
+\*Features:*
 - Personalized greeting using the stored username.
 - “Logout” button that clears stored login data and redirects back to the login page.
 
@@ -97,7 +97,7 @@ This page collects and saves user data.
 
 
 **Minigame - Fashion Match**\
-*Title: Barbie’s Fashion Match*
+*Title: Barbie’s Fashion Match*\
 Purpose: An interactive matching game focused on Barbie fashion styles.
 - How the data will be used: 
 - Displays a personalized greeting using the saved username
