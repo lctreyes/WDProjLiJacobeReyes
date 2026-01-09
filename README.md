@@ -48,66 +48,66 @@ This will highlight Barbie’s influence on fashion and her ever-changing wardro
   <img width="1414" height="2000" alt="FASHION" src="https://github.com/user-attachments/assets/cc4edfd6-b1d4-4e17-9c0c-dfce2833e671" />
 
 
-**Additional Feature: Barbie Mini Game Login**
-*Purpose:*
-To increase user engagement, BarbieLaT will include a mini interactive game that can only be accessed after logging in.
+**Additional Feature: Barbie Mini Game Login**\
+*Purpose:*\
+To increase user engagement, BarbieLaT will include a mini interactive game that can only be accessed after logging in.\
 
-**Enter Barbie’s Playhouse**
-*Form Description*
-A simple login form will be added to the website to allow users access to a Barbie-themed mini game
-**Form Elements Used** 
-*Text input:*
-- Username
-- Password input
-- Login button
-
-
-**How the Data Is Used and Saved**
-Login information will be stored using JavaScript Local Storage on the user’s computer.
-*Once logged in:*
-- The username will be displayed on the game page.
-- Data remains saved until the user logs out or clears browser storage.
-
-**New Webpages Related to the Game**
-Barbie Game Login
-*Purpose:*
-- Collect login information before allowing access to the game.
-*Functionality:*
-- Saves user input using JavaScript.
-- Redirects to the Game Page upon successful login.
-
-**Barbie Fashion Game**
-*Purpose:*
-- Provide a fun, interactive mini game experience.
-*Features:*
-- Personalized greeting using the stored username.
-- “Logout” button that clears stored login data and redirects back to the login page.
-
-**Navigation Update**
-A new “Game” link will appear in the navigation bar.
-- If the user is not logged in, clicking Game redirects to the Login Page. 
-- If logged in, the user is taken directly to the Game Page.
+**Enter Barbie’s Playhouse**\
+*Form Description*\
+A simple login form will be added to the website to allow users access to a Barbie-themed mini game\
+**Form Elements Used** \
+*Text input:*\
+- Username\
+- Password input\
+- Login button\
 
 
-**Login page**
-*Title: Enter Barbie’s Playhouse*
-Purpose: The HTML form acts as a login page that allows users to access the Barbie mini game. 
-How the data will be used: 
-This page collects and saves user data.
+**How the Data Is Used and Saved**\
+Login information will be stored using JavaScript Local Storage on the user’s computer.\
+*Once logged in:*\
+- The username will be displayed on the game page.\
+- Data remains saved until the user logs out or clears browser storage.\
+
+**New Webpages Related to the Game**\
+Barbie Game Login\
+*Purpose:*\
+- Collect login information before allowing access to the game.\
+*Functionality:*\
+- Saves user input using JavaScript.\
+- Redirects to the Game Page upon successful login.\
+
+**Barbie Fashion Game**\
+*Purpose:*\
+- Provide a fun, interactive mini game experience.\
+*Features:*\
+- Personalized greeting using the stored username.\
+- “Logout” button that clears stored login data and redirects back to the login page.\
+
+**Navigation Update**\
+A new “Game” link will appear in the navigation bar.\
+- If the user is not logged in, clicking Game redirects to the Login Page. \
+- If logged in, the user is taken directly to the Game Page.\
+
+
+**Login page**\
+*Title: Enter Barbie’s Playhouse*\
+Purpose: The HTML form acts as a login page that allows users to access the Barbie mini game.\ 
+How the data will be used: \
+This page collects and saves user data.\
 <img width="1414" height="2000" alt="LOGIN" src="https://github.com/user-attachments/assets/1633104c-0592-43e5-95ee-72e1be17929a" />
 
 
-**Minigame - Fashion Match**
-*Title: Barbie’s Fashion Match*
-Purpose: An interactive matching game focused on Barbie fashion styles.
-- How the data will be used: 
-- Displays a personalized greeting using the saved username  
+**Minigame - Fashion Match**\
+*Title: Barbie’s Fashion Match*\
+Purpose: An interactive matching game focused on Barbie fashion styles.\
+- How the data will be used: \
+- Displays a personalized greeting using the saved username\  
 <img width="1414" height="2000" alt="FASHION GAME" src="https://github.com/user-attachments/assets/75cf56cb-f591-41cb-8439-d70cece4b820" />
 
 
-**Minigame - Trivia Game**
-*Title: Barbie Trivia!*
-Purpose: A true-or-false trivia game that tests Barbie knowledge.
-- How the data will be used: 
-- Uses the saved username in greetings
+**Minigame - Trivia Game**\
+*Title: Barbie Trivia!*\
+Purpose: A true-or-false trivia game that tests Barbie knowledge.\
+- How the data will be used: \
+- Uses the saved username in greetings\
 <img width="1414" height="2000" alt="TRIVIA" src="https://github.com/user-attachments/assets/f7f70c27-8417-4302-b9f9-fe76d50f9a34" />
