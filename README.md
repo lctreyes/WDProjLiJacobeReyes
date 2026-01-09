@@ -56,7 +56,7 @@ To increase user engagement, BarbieLaT will include a mini interactive game that
 *Form Description*\
 A simple login form will be added to the website to allow users access to a Barbie-themed mini game\
 \**Form Elements Used**\
-\Text input:
+Text input:
 - Username
 - Password input
 - Login button
