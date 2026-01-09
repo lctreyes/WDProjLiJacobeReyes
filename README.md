@@ -98,16 +98,16 @@ This page collects and saves user data.\
 
 
 **Minigame - Fashion Match**\
-*Title: Barbie’s Fashion Match*\
-Purpose: An interactive matching game focused on Barbie fashion styles.\
-- How the data will be used: \
-- Displays a personalized greeting using the saved username\  
+*Title: Barbie’s Fashion Match*
+Purpose: An interactive matching game focused on Barbie fashion styles.
+- How the data will be used: 
+- Displays a personalized greeting using the saved username
 <img width="1414" height="2000" alt="FASHION GAME" src="https://github.com/user-attachments/assets/75cf56cb-f591-41cb-8439-d70cece4b820" />
 
 
 **Minigame - Trivia Game**\
 *Title: Barbie Trivia!*\
 Purpose: A true-or-false trivia game that tests Barbie knowledge.\
-- How the data will be used: \
-- Uses the saved username in greetings\
+- How the data will be used: 
+- Uses the saved username in greetings
 <img width="1414" height="2000" alt="TRIVIA" src="https://github.com/user-attachments/assets/f7f70c27-8417-4302-b9f9-fe76d50f9a34" />
