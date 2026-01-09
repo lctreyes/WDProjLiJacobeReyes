@@ -55,12 +55,11 @@ To increase user engagement, BarbieLaT will include a mini interactive game that
 **Enter Barbie’s Playhouse**\
 *Form Description*\
 A simple login form will be added to the website to allow users access to a Barbie-themed mini game\
-**Form Elements Used**
+**Form Elements Used**\
 *Text input:*
 - Username
 - Password input
 - Login button
-
 
 **How the Data Is Used and Saved**\
 Login information will be stored using JavaScript Local Storage on the user’s computer.\
@@ -70,9 +69,9 @@ Login information will be stored using JavaScript Local Storage on the user’s 
 
 **New Webpages Related to the Game**\
 Barbie Game Login\
-*Purpose:*
+*Purpose:*\
 - Collect login information before allowing access to the game.
-*Functionality:*
+*Functionality:*\
 - Saves user input using JavaScript.
 - Redirects to the Game Page upon successful login.
 
