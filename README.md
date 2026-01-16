@@ -47,66 +47,48 @@ This will highlight Barbie’s influence on fashion and her ever-changing wardro
 - “Behind the Design” section featuring Barbie’s fashion collaborations.
   <img width="1414" height="2000" alt="FASHION" src="https://github.com/user-attachments/assets/cc4edfd6-b1d4-4e17-9c0c-dfce2833e671" />
 
+**The website will include two related forms:**\
+**Sign-Up / Login Form**\
+This form collects user credentials to grant access to the Shop page and basket features.\
+Form Elements:
+- Full Name (text)
+- Email Address (email)
+- Username (text)
+- Password (password)
+- Confirm Password (password)
+- Login / Sign-Up button
 
-**Additional Feature: Barbie Mini Game Login**\
-*Purpose:*\
-To increase user engagement, BarbieLaT will include a mini interactive game that can only be accessed after logging in.\
+**Shopping Order Form**\
+Used to record selected items and quantities before checkout.\
+Form Elements:
+- Product selection
+- Quantity (number)
 
-**Enter Barbie’s Playhouse**\
-*Form Description*\
-A simple login form will be added to the website to allow users access to a Barbie-themed mini game\
-\**Form Elements Used**\
-Text input:
-- Username
-- Password input
-- Login button
+**Purpose and Usage:**\
+- The Sign-Up/Login form allows users to access exclusive features such as viewing prices, adding items to a basket, and checking out.
+- The Order form records the user’s selected items and computes the total cost.
 
-**How the Data Is Used and Saved**\
-Login information will be stored using JavaScript Local Storage on the user’s computer.\
-*Once logged in:*
-- The username will be displayed on the game page.
-- Data remains saved until the user logs out or clears browser storage.
-
-**New Webpages Related to the Game**\
-Barbie Game Login\
-*Purpose:*
-- Collect login information before allowing access to the game.\
-*Functionality:*
-- Saves user input using JavaScript.
-- Redirects to the Game Page upon successful login.
-
-**Barbie Fashion Game**\
-*Purpose:*
-- Provide a fun, interactive mini game experience.\
-*Features:*
-- Personalized greeting using the stored username.
-- “Logout” button that clears stored login data and redirects back to the login page.
-
-**Navigation Update**\
-A new “Game” link will appear in the navigation bar.
-- If the user is not logged in, clicking Game redirects to the Login Page. 
-- If logged in, the user is taken directly to the Game Page.
+**New Webpages Using the Form Data**
+1. **Shop Page – Barbie’s Boutique 🛍️**\
+Purpose: Allow logged-in users to browse and select Barbie merchandise.\
+**Features:**
+- Displays products such as the barbie dolls
+- “Add to Basket” buttons
+- Requires user to be logged in
 
 
-**Login page**\
-*Title: Enter Barbie’s Playhouse*\
-Purpose: The HTML form acts as a login page that allows users to access the Barbie mini game.
-How the data will be used: 
-This page collects and saves user data.
-<img width="1414" height="2000" alt="LOGIN" src="https://github.com/user-attachments/assets/1633104c-0592-43e5-95ee-72e1be17929a" />
+2. **Basket / Cart Page – My Barbie Basket**\
+Purpose: Display items selected by the user and calculate total payment.\
+**Features:**
+- List of selected items
+- Quantity and price summary
+- Total amount to be paid
+- Checkout button
+- Displays personalized order summary
 
-
-**Minigame - Fashion Match**\
-*Title: Barbie’s Fashion Match*\
-Purpose: An interactive matching game focused on Barbie fashion styles.
-- How the data will be used: 
-- Displays a personalized greeting using the saved username
-<img width="1414" height="2000" alt="FASHION GAME" src="https://github.com/user-attachments/assets/75cf56cb-f591-41cb-8439-d70cece4b820" />
-
-
-**Minigame - Trivia Game**\
-*Title: Barbie Trivia!*\
-Purpose: A true-or-false trivia game that tests Barbie knowledge.
-- How the data will be used: 
-- Uses the saved username in greetings
-<img width="1414" height="2000" alt="TRIVIA" src="https://github.com/user-attachments/assets/f7f70c27-8417-4302-b9f9-fe76d50f9a34" />
+3. **Profile / Confirmation Page – My Barbie Account 💖**\
+Purpose: Confirm login details and order submission.\
+**Features:**
+- Displays user’s name and email
+- Shows last order summary
+- Logout button (clears stored login data)
