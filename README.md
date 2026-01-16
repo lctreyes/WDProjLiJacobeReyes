@@ -50,7 +50,7 @@ This will highlight Barbie’s influence on fashion and her ever-changing wardro
 **Overview**
 - This updated proposal expands the existing Barbie’s World website by integrating HTML forms that allow user interaction through a Shop feature. 
 - The new feature requires users to sign up or log in to access shopping privileges, manage a basket, and view order details.
-- - The collected data will be saved locally on the user’s computer and reused across multiple webpages to personalize the experience.
+- The collected data will be saved locally on the user’s computer and reused across multiple webpages to personalize the experience.
 
 **The website will include two related forms:**\
 **Sign-Up / Login Form**
@@ -69,7 +69,7 @@ Form Elements:
 - Product selection
 - Quantity (number)
 
-**Purpose and Usage:**\
+**Purpose and Usage:**
 - The Sign-Up/Login form allows users to access exclusive features such as viewing prices, adding items to a basket, and checking out.
 - The Order form records the user’s selected items and computes the total cost.
 
