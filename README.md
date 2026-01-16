@@ -47,8 +47,13 @@ This will highlight Barbie’s influence on fashion and her ever-changing wardro
 - “Behind the Design” section featuring Barbie’s fashion collaborations.
   <img width="1414" height="2000" alt="FASHION" src="https://github.com/user-attachments/assets/cc4edfd6-b1d4-4e17-9c0c-dfce2833e671" />
 
+**Overview**
+- This updated proposal expands the existing Barbie’s World website by integrating HTML forms that allow user interaction through a Shop feature. 
+- The new feature requires users to sign up or log in to access shopping privileges, manage a basket, and view order details.
+- - The collected data will be saved locally on the user’s computer and reused across multiple webpages to personalize the experience.
+
 **The website will include two related forms:**\
-**Sign-Up / Login Form**\
+**Sign-Up / Login Form**
 This form collects user credentials to grant access to the Shop page and basket features.\
 Form Elements:
 - Full Name (text)
@@ -69,15 +74,26 @@ Form Elements:
 - The Order form records the user’s selected items and computes the total cost.
 
 **New Webpages Using the Form Data**
-1. **Shop Page – Barbie’s Boutique 🛍️**\
+1.  **Profile / Confirmation Page – My Barbie Account 💖**\
+Purpose: Confirm login details and order submission.\
+**Features:**
+- Displays user’s name and email
+- Shows last order summary
+- Logout button (clears stored login data)
+<img width="1414" height="2000" alt="LOG IN" src="https://github.com/user-attachments/assets/51057e27-853f-4cdb-bf77-9d5e48627aca" />
+
+
+
+2.  **Shop Page – Barbie’s Boutique 🛍️**\
 Purpose: Allow logged-in users to browse and select Barbie merchandise.\
 **Features:**
 - Displays products such as the barbie dolls
 - “Add to Basket” buttons
 - Requires user to be logged in
+<img width="1414" height="2000" alt="SHOP" src="https://github.com/user-attachments/assets/2b4a165a-0f01-4a0c-9c03-01def158bc5c" />
 
 
-2. **Basket / Cart Page – My Barbie Basket**\
+3.**Basket / Cart Page – My Barbie Basket🧺**\
 Purpose: Display items selected by the user and calculate total payment.\
 **Features:**
 - List of selected items
@@ -85,10 +101,5 @@ Purpose: Display items selected by the user and calculate total payment.\
 - Total amount to be paid
 - Checkout button
 - Displays personalized order summary
+<img width="1414" height="2000" alt="BASKET" src="https://github.com/user-attachments/assets/964d9eea-0bad-4984-b0b5-084e9c322728" />
 
-3. **Profile / Confirmation Page – My Barbie Account 💖**\
-Purpose: Confirm login details and order submission.\
-**Features:**
-- Displays user’s name and email
-- Shows last order summary
-- Logout button (clears stored login data)
