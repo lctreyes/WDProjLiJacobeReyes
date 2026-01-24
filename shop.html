@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="./public/asset/barbIE.png">
+    <link rel="stylesheet" href="./css/ayos.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>BarbieLAT Boutique</title>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#"><img src="./public/asset/barbIE.png" alt="BarbieLAT Logo"></a>
+            </div>
+            <nav>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./movies.html">Movies</a></li>
+                <li><a href="./shows.html">Shows</a></li>
+                <li><a href="./characters.html">Characters</a></li>
+                <li><a href="./closet.html">Closet</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+            </nav>
+<!-- User actions -->
+<div class="actions">
+    <i class="fa-solid fa-bag-shopping cart-icon"></i>
+    <span class="cart-count">0</span>
+</div>
+
+<!-- Logged-in user email -->
+<span id="userEmail" class="user-email"></span>
+<button id="logoutBtn" class="logout-link">Logout</button>
+
+        </div>
+    </div>
+</header>
+
+<!-- SHOP SECTION -->
+<section class="shop container">
+    <h3 class="normal_heading-1">Barbie's Boutique</h3>
+    <h2 class="main_heading">Shop the Magic Today!</h2>
+
+    <div class="product-grid">
+        <!-- Products render dynamically -->
+    </div>
+
+    <div class="view-cart-container">
+        <button class="view-cart-btn">VIEW CART</button>
+    </div>
+</section>
+
+<!-- CART PANEL -->
+<div class="cart-panel">
+    <h2>Your Cart</h2>
+    <div class="cart-items"></div>
+    <div class="cart-total">
+        <strong>Total:</strong> <span id="total-price">₱0</span>
+    </div>
+    <button class="close-cart">Close</button>
+</div>
+
+<!-- FOOTER -->
+<footer class="paa">
+    <p>&copy; 2025 BarbieLaT (Barbie: Legacies and Tales). All Rights Reserved</p>
+</footer>
+
+<!-- AYOS.JS -->
+<script type="module" src="./js/ayos.js"></script>
+
+</body>
+</html>

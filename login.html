@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="./public/asset/barbIE.png">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>BarbieLAT Login / Sign Up</title>
+</head>
+
+<body>
+    <!-- Floating Particles -->
+    <div id="particles"></div>
+
+    <!-----------HEADER----------------------------->
+    <header>
+        <a href="#"><img src="./public/asset/barbIE.png" alt="BarbieLAT Logo"></a>
+    </header>
+    <!-----------HEADER CLOSE--------------------->
+
+    <div class="login-container">
+        <div class="login-card">
+            <h2 id="loginTitle">Welcome!</h2>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" id="emailInput" class="cute-input" placeholder="Enter email...">
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" id="passwordInput" class="cute-input" placeholder="Shhh...">
+            </div>
+
+            <div class="buttons-area">
+                <button class="action-btn" id="doLoginBtn">Login</button>
+                <button class="secondary-btn" id="toggleMode">Sign Up instead?</button>
+            </div>
+
+            <div class="divider">
+                <span>or</span>
+            </div>
+
+            <button class="anon-link" id="anonBtn">
+                Just looking around? &rarr;
+            </button>
+        </div>
+    </div>
+
+    <!-- Firebase & Particles -->
+    <script type="module" src="./js/login.js"></script>
+</body>
+</html>

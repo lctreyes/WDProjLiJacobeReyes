@@ -84,13 +84,13 @@ const movie = [
         id: 10,
         title: "Barbie Diaries (2006)",
         Category: "Comedy",
-        img:"./public/asset/movie10.png" 
+        img:"./public/asset/movie11.jpg" 
     },
     {
         id: 11,
         title: "Barbie: A Fashion Fairytale (2010)",
         Category: "Comedy",
-        img: "./public/asset/movie11.jpg"
+        img: "./public/asset/movie10.png"
     },
     {
         id: 12,

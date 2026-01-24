@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Birthstone&family=Lobster&family=Londrina+Solid:wght@100;300;400;900&family=Righteous&display=swap');
+
+:root {
+    --primary_color: #ff2d92;
+    --white_color: #fff;
+    --box_shadow: 10px 10px 5px rgba(0,0,0,.3);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Londrina Solid", sans-serif;
+}
+
+/* ---------------------- BODY ---------------------- */
+body {
+    background-color: #ffd6eb; /* soft pink background */
+}
+
+.main_heading{
+    font-size: 4rem;
+    font-family: var(--righteous);
+    text-align: center;
+    color: black;
+}
+
+.main_heading-1{
+    font-size: 4rem;
+    font-family: var(--righteous);
+    text-align: center;
+    color: black;
+}
+
+.normal_heading{
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(--white_color);
+    text-align: center;
+}
+
+.normal_heading-1{
+    font-size: 2rem;
+    font-family: var(--righteous);
+    color: var(black);
+    text-align: center;
+}
+
+/* ---------------------- HEADER ---------------------- */
+header {
+    width: 100%;
+    background: rgba(0,0,0,0.6); /* semi-transparent black */
+    position: fixed;
+    top: 0;
+    padding: 0.4rem 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.logo img {
+    width: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.navbar nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav li {
+    list-style: none;
+    margin: 0 0.6rem;
+}
+/* ---------------------- NAVBAR LINKS ---------------------- */
+.navbar nav li a {
+    font-size: 0.85rem;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+    text-decoration: none; /* remove underline */
+}
+
+
+.navbar nav li a:hover {
+    background: rgba(255, 182, 216, 0.6);
+}
+
+.actions {
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: #fff;
+    color: var(--primary_color);
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+
+.signup-btn {
+    border: 2px solid var(--primary_color);
+    padding: 5px 12px;
+    border-radius: 25px;
+    color: var(--primary_color);
+    font-family: 'Righteous', cursive;
+    transition: 0.3s ease;
+}
+
+.signup-btn:hover {
+    background: var(--primary_color);
+    color: white;
+}
+
+/* ---------------------- SHOP ---------------------- */
+.shop {
+    padding: 100px 40px 80px 40px; /* space for fixed header */
+}
+
+.shop h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Righteous', cursive;
+    color: var(--primary_color);
+}
+/* ---------------------- PRODUCT GRID ---------------------- */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-auto-rows: auto; /* automatic row height */
+    gap: 20px; /* spacing between cards */
+    justify-items: center; /* center cards horizontally */
+}
+
+/* ---------------------- PRODUCT CARD ---------------------- */
+.product-card {
+    background: white;
+    border-radius: 18px;
+    padding: 10px; /* smaller padding */
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+    width: 90%; /* smaller cards */
+}
+
+/* ---------------------- PRODUCT IMAGES ---------------------- */
+.product-card img {
+    width: 30%;
+    margin: 0 auto; /* center them */
+    border-radius: 8px;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+}
+
+.price {
+    color: var(--primary_color);
+    font-weight: bold;
+    margin: 6px 0;
+    font-size: 0.9rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 12px;
+    background: var(--primary_color);
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.btn:hover {
+    background: #e91e7c;
+}
+/* Logout button styled like Sign Up button */
+.logout-link {
+    border: 2px solid #ff2d92;
+    padding: 8px 18px;
+    border-radius: 25px;
+    color: #ff2d92;
+    font-family: 'Righteous', cursive;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background: transparent;
+    margin-left: 1rem;
+}
+
+.logout-link:hover {
+    background: #ff2d92;
+    color: white;
+}
+
+
+/* VIEW CART BUTTON */
+.view-cart-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.view-cart-btn {
+    padding: 0.6rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    border: none;
+    background: var(--primary_color);
+    color: white;
+    cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+
+.view-cart-btn:hover {
+    background: #e91e7c;
+}
+
+/* ---------------------- CART PANEL ---------------------- */
+.cart-panel {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 280px; /* smaller panel */
+    height: 100vh;
+    background: #fff0f6;
+    padding: 1.5rem;
+    box-shadow: -10px 0 25px rgba(0,0,0,0.2);
+    transition: 0.4s ease;
+    z-index: 999;
+}
+
+.cart-panel.active {
+    right: 0;
+}
+
+.cart-items {
+    margin: 1.5rem 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+}
+
+.cart-total {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.close-cart {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: none;
+    background: var(--primary_color);
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------------------- FOOTER ---------------------- */
+.paa {
+    text-align: center;
+    padding: 8px 0;
+    background-color: #ffb6d8;
+    color: #d6336c;
+    font-size: 13px;
+}
+
