@@ -282,3 +282,27 @@ header {
     font-size: 13px;
 }
 
+
+/* footer */
+.paa{
+    text-align: center;
+    padding: 0px;
+    background-color: #f2b6cc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #d6336c;
+}
+
+.paa li{
+    text-align: center;
+    text-decoration: none;
+    color: #d6336c;
+}
+
+.para {
+    text-align: center;
+    justify-content: center;
+    color: var(--primary_color);
+}
