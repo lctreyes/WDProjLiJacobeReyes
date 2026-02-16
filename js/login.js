@@ -6,14 +6,11 @@ import {
     onAuthStateChanged
 } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 
-// ============================
-// FIREBASE CONFIG
-// ============================
 const firebaseConfig = {
     apiKey: "AIzaSyCswu6YR_Zcd4htvNaeuVEKqczw9GlrHSI",
-    authDomain: "chiikarcade.firebaseapp.com",
-    projectId: "chiikarcade",
-    storageBucket: "chiikarcade.firebasestorage.app",
+    authDomain: "barbiedreamhouse.firebaseapp.com",
+    projectId: "barbiedreamhouse",
+    storageBucket: "barbiedreamhouse.firebasestorage.app",
     messagingSenderId: "692701231363",
     appId: "1:692701231363:web:aba787e6712a167cd99136"
 };
@@ -21,9 +18,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-// ============================
-// DOM ELEMENTS
-// ============================
+
 const emailInput = document.getElementById('emailInput');
 const passwordInput = document.getElementById('passwordInput');
 const loginBtn = document.getElementById('doLoginBtn');
@@ -33,26 +28,31 @@ const anonBtn = document.getElementById('anonBtn');
 
 let isSignup = false;
 
-// ============================
-// TOGGLE LOGIN / SIGNUP MODE
-// ============================
+
 toggleBtn.addEventListener('click', () => {
     isSignup = !isSignup;
-    loginTitle.innerText = isSignup ? "Sign Up!" : "Welcome!";
-    loginBtn.innerText = isSignup ? "Create Account" : "Login";
-    toggleBtn.innerText = isSignup ? "Have an account? Login" : "Sign Up instead?";
+
+    loginTitle.innerText = isSignup 
+        ? "Join the Dreamhouse 💖" 
+        : "Welcome Barbie ✨";
+
+    loginBtn.innerText = isSignup 
+        ? "Create Dream Account 💅" 
+        : "Enter Dreamhouse 💗";
+
+    toggleBtn.innerText = isSignup 
+        ? "Already a Barbie? Login 💞" 
+        : "New here? Become a Barbie 💄";
 });
 
-// ============================
-// HANDLE LOGIN / SIGNUP
-// ============================
 loginBtn.addEventListener('click', async () => {
     const email = emailInput.value;
     const password = passwordInput.value;
 
-    if (!email || !password) return alert("Enter email and password!");
+    if (!email || !password) 
+        return alert("Please enter your Dreamhouse email & password 💌");
 
-    loginBtn.innerText = "Processing...";
+    loginBtn.innerText = "Sprinkling Glitter... ✨";
 
     try {
         if (isSignup) {
@@ -60,23 +60,22 @@ loginBtn.addEventListener('click', async () => {
         } else {
             await signInWithEmailAndPassword(auth, email, password);
         }
-        window.location.href = "./shop.html"; // go to shop after login/signup
+
+        // Redirect to Barbie Shop after login/signup
+        window.location.href = "./shop.html";
+
     } catch (err) {
-        alert(err.message);
-        loginBtn.innerText = isSignup ? "Create Account" : "Login";
+        alert("Oops Barbie! 💔 " + err.message);
+        loginBtn.innerText = isSignup 
+            ? "Create Dream Account 💅" 
+            : "Enter Dreamhouse 💗";
     }
 });
 
-// ============================
-// JUST LOOKING AROUND BUTTON
-// ============================
 anonBtn.addEventListener('click', () => {
-    window.location.href = "./index.html"; // redirect to home page
+    window.location.href = "./index.html"; 
 });
 
-// ============================
-// AUTOMATIC REDIRECT IF USER LOGGED IN
-// ============================
 onAuthStateChanged(auth, (user) => {
     if (user) {
         window.location.href = "./shop.html";
