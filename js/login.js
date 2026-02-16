@@ -38,7 +38,7 @@ toggleBtn.addEventListener('click', () => {
 
     loginBtn.innerText = isSignup 
         ? "Create Dream Account 💅" 
-        : "Enter Dreamhouse 💗";
+        : "Enter Botique 💗";
 
     toggleBtn.innerText = isSignup 
         ? "Already a Barbie? Login 💞" 

@@ -163,8 +163,8 @@ cartItemsContainer.addEventListener("click", e => {
 });
 
 viewCartBtn.addEventListener("click", () => {
-  cartPanel.classList.add("active");
   renderCart();
+  cartPanel.classList.add("active");
 });
 
 closeCartBtn.addEventListener("click", () => {
