@@ -227,19 +227,20 @@ header {
 .view-cart-btn:hover {
     background: #e91e7c;
 }
-
 /* ---------------------- CART PANEL ---------------------- */
 .cart-panel {
     position: fixed;
     top: 0;
-    right: -300px;
-    width: 280px; /* smaller panel */
+    right: -100%;
+    width: 320px;
+    max-width: 90%;
     height: 100vh;
     background: #fff0f6;
     padding: 1.5rem;
-    box-shadow: -10px 0 25px rgba(0,0,0,0.2);
-    transition: 0.4s ease;
-    z-index: 999;
+    box-shadow: -10px 0 25px rgba(0,0,0,0.3);
+    transition: right 0.4s ease;
+    z-index: 2000;
+    overflow-y: auto;
 }
 
 .cart-panel.active {
@@ -253,24 +254,45 @@ header {
 .cart-item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0.8rem;
+    align-items: center;
+    margin-bottom: 1rem;
     font-size: 0.9rem;
+    gap: 10px;
+}
+
+.cart-item button {
+    background: var(--primary_color);
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cart-item button:hover {
+    background: #e91e7c;
 }
 
 .cart-total {
     font-size: 1.2rem;
     margin-top: 1.5rem;
+    font-weight: bold;
 }
 
 .close-cart {
     width: 100%;
     margin-top: 1rem;
-    padding: 0.5rem;
+    padding: 0.6rem;
     border-radius: 20px;
     border: none;
     background: var(--primary_color);
     color: white;
     cursor: pointer;
+    font-family: 'Righteous', cursive;
+}
+
+.close-cart:hover {
+    background: #e91e7c;
 }
 
 /* ---------------------- FOOTER ---------------------- */
