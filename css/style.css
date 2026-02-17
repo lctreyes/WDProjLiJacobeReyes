@@ -32,6 +32,7 @@ a{
     font-size: 4rem;
     font-family: var(--righteous);
     text-align: center;
+    color: #444;
 }
 
 .main_heading-1{
@@ -802,6 +803,7 @@ footer {
     font-family: var(--righteous);
     font-size: 1rem;
     line-height: 1.6;
+    color: #d6336c;
 
     text-align: justify;
 
@@ -813,6 +815,7 @@ footer {
 
 .para_box .text-box p {
     margin-bottom: 16px;
+    color: #b03060;
 }
 
 /* wide or long text box */
@@ -843,6 +846,7 @@ footer {
 
 .wide-text-container p {
     margin-bottom: 12px;
+
 }
 
 /* wide or long text box */
@@ -873,6 +877,7 @@ footer {
 
 .wide-text-containers p {
     margin-bottom: 12px;
+    color: #444;
 }
 
 /* wide or long text box */
@@ -895,6 +900,7 @@ footer {
     font-size: 1rem;
     line-height: 1.5;
     text-align: justify;
+    color: ;
 
     word-wrap: break-word;
     overflow-wrap: break-word;

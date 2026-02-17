@@ -1,68 +1,307 @@
-/*large screen is 1070px*/
-
-@media(max-width:1070px){
-    html{
-        font-size: 60%;
-    }
-
-    .container{
-        padding: 0 60px;
-    }
-.asset_content{
-    padding: 2rem 0;
-}
+:root {
+  --font-size-base: 16px;
+  --container-padding: 1rem;
+  --container-max-width: 1280px;
 }
 
-@media (max-width: 900px){
-html{
-font-size: 55%;
-}
-.container{
-padding: 0 40px;
-}
-
-.btn{
-display: block;
+/* Make nav_grid responsive */
+.nav_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
-.navbar nav{
-flex-direction: column;
-position: fixed;
-min-width: 100%;
-min-height: 60vh;
-top: 0;
-right: 100%;
-background-color: black;
-align-items: flex-start;
-justify-content: center;
-transition: all 0.5s ease-in-out;
+@media (min-width: 640px) {
+  .nav_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-nav.active{
-right: 0%;
-transition: all 1s ease-in;
+@media (min-width: 1024px) {
+  .nav_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-.navbar nav li{
-margin: 2rem 4rem;
-}
-.navbar nav li a{
-font-size: 1.4rem;
-color: var(--white_color);
-position: relative;
+/* Make character row responsive */
+.character_row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-.close-btn{
-position: absolute;
-top: 0;
-left: 90%;
-margin: 25px;
-}
-}
-
-@media(max-width: 768px){
-    .sp_content{
-        grid-template-columns: repeat(1,1fr);
-    }
+@media (min-width: 768px) {
+  .character_row {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
+/* ─────────────────────────────────────────────
+   BASE STYLES — Mobile first (all screens)
+   No media query needed — this is your default
+   ───────────────────────────────────────────── */
+body {
+  font-size: var(--font-size-base);
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding-inline: var(--container-padding);
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 column on mobile */
+  gap: 1rem;
+}
+
+
+/* ─────────────────────────────────────────────
+   XS — Extra small phones (< 480px)
+   e.g. iPhone SE, older Android phones
+   ───────────────────────────────────────────── */
+@media (max-width: 479px) {
+  .container {
+    padding-inline: 0.75rem;
+  }
+
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.25rem; }
+
+  /* Stack anything side-by-side */
+  .flex-row {
+    flex-direction: column;
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   SM — Small phones (480px → 639px)
+   e.g. iPhone 14, Pixel, Galaxy S
+   ───────────────────────────────────────────── */
+@media (min-width: 480px) {
+  .container {
+    padding-inline: 1rem;
+  }
+
+  h1 { font-size: 1.75rem; }
+}
+
+
+/* ─────────────────────────────────────────────
+   MD — Tablets / large phones (640px → 767px)
+   e.g. iPad Mini (portrait), Galaxy Tab
+   ───────────────────────────────────────────── */
+@media (min-width: 640px) {
+  .container {
+    padding-inline: 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  }
+
+  h1 { font-size: 2rem; }
+}
+
+
+/* ─────────────────────────────────────────────
+   LG — Tablets / small laptops (768px → 1023px)
+   e.g. iPad (portrait/landscape), Surface
+   ───────────────────────────────────────────── */
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  h1 { font-size: 2.25rem; }
+
+  /* Show desktop nav, hide hamburger */
+  .nav-mobile  { display: none; }
+  .nav-desktop { display: flex; }
+}
+
+
+/* ─────────────────────────────────────────────
+   XL — Laptops / desktops (1024px → 1279px)
+   e.g. 13" MacBook, 1080p monitors
+   ───────────────────────────────────────────── */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-inline: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 2rem;
+  }
+
+  h1 { font-size: 2.75rem; }
+}
+
+
+/* ─────────────────────────────────────────────
+   2XL — Large desktops (1280px → 1535px)
+   e.g. 1440p monitors, 15" MacBook Pro
+   ───────────────────────────────────────────── */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  }
+
+  h1 { font-size: 3rem; }
+}
+
+
+/* ─────────────────────────────────────────────
+   3XL — Ultra-wide / 4K (1536px+)
+   e.g. 4K monitors, ultra-wide displays
+   ───────────────────────────────────────────── */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  h1 { font-size: 3.5rem; }
+}
+
+
+/* ─────────────────────────────────────────────
+   ORIENTATION QUERIES
+   Portrait vs. Landscape
+   ───────────────────────────────────────────── */
+@media (orientation: portrait) {
+  /* Taller than wide — common on phones held upright */
+  .hero {
+    min-height: 60vh;
+  }
+}
+
+@media (orientation: landscape) {
+  /* Wider than tall — phones sideways, most desktops */
+  .hero {
+    min-height: 80vh;
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   TOUCH vs. POINTER DEVICES
+   Fine = mouse/trackpad | Coarse = touchscreen
+   ───────────────────────────────────────────── */
+@media (pointer: coarse) {
+  /* Touchscreen — make tap targets bigger */
+  button,
+  a,
+  input,
+  select {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+@media (pointer: fine) {
+  /* Mouse — hover states are safe to use */
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   HIGH-DPI / RETINA SCREENS
+   Use higher-resolution images on sharp displays
+   ───────────────────────────────────────────── */
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .logo {
+    /* background-image: url('logo@2x.png'); */
+    background-size: contain;
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   ACCESSIBILITY — User preferences
+   ───────────────────────────────────────────── */
+
+/* Reduced motion — respect user's OS setting */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dark mode — syncs with OS preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg:   #0f0f0f;
+    --color-text: #f0f0f0;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+}
+
+/* Light mode — explicit override if needed */
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-bg:   #ffffff;
+    --color-text: #111111;
+  }
+}
+
+
+/* ─────────────────────────────────────────────
+   PRINT STYLES
+   Clean, ink-friendly layout for printing
+   ───────────────────────────────────────────── */
+@media print {
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  nav,
+  footer,
+  .no-print,
+  .sidebar {
+    display: none !important;
+  }
+
+  a::after {
+    content: " (" attr(href) ")"; /* Show URLs when printed */
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  @page {
+    margin: 2cm;
+  }
+}
