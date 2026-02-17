@@ -328,3 +328,43 @@ header {
     justify-content: center;
     color: var(--primary_color);
 }
+body {
+    background-color: #ffe6f2 !important;
+}
+
+/* ---------------- CART TEXT COLORS ---------------- */
+
+/* Product name = BLACK */
+.cart-item span:first-child {
+    color: black !important;
+    font-weight: 600;
+}
+
+/* Quantity (x1, x2, etc.) = DARK GRAY */
+.cart-item .decrease + span {
+    color: #444 !important;
+    font-weight: bold;
+}
+
+/* Price per item (₱...) = DARK GRAY */
+.cart-item span:last-child {
+    color: #444 !important;
+    font-weight: 600;
+}
+
+/* Total label + total price = DARK GRAY */
+.cart-total,
+#total-price {
+    color: #333 !important;
+    font-weight: bold;
+}
+
+/* Cart panel heading */
+.cart-panel h2 {
+    color: #333 !important;
+}
+/* PRODUCT CARD NAME (Barbie names) */
+.product-card h4 {
+    color: black !important;
+    font-weight: 700;
+}

@@ -132,14 +132,14 @@ function renderCart() {
     div.classList.add("cart-item");
 
     div.innerHTML = `
-      <span>${item.name}</span>
-      <div>
+      <span class="cart-name">${item.name}</span>
+      <div class="cart-controls">
         <button class="decrease" data-id="${item.id}">-</button>
-        <span>x${item.quantity}</span>
+        <span class="qty">x${item.quantity}</span>
         <button class="increase" data-id="${item.id}">+</button>
         <button class="remove" data-id="${item.id}">🗑</button>
       </div>
-      <span>₱${item.price * item.quantity}</span>
+      <span class="cart-subtotal">₱${item.price * item.quantity}</span>
     `;
 
     cartItemsContainer.appendChild(div);
@@ -147,6 +147,7 @@ function renderCart() {
 
   totalPriceEl.textContent = `₱${total}`;
 }
+
 
 productGrid.addEventListener("click", e => {
   if (e.target.classList.contains("btn")) {
