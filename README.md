@@ -1,4 +1,12 @@
 # WDProjLiJacobeReyes
+**CRUD**
+
+
+
+
+
+
+
 **LOGO**\
 ![BARBIE](https://github.com/user-attachments/assets/5e1a4337-4ef3-4a9c-b262-6fd3fc741f35)
 
