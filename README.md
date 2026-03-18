@@ -26,7 +26,7 @@ Purpose: Showcase Barbie’s cinematic adventures and timeless storytelling.\
 **Content:**
 - List of Barbie movies with posters and links.
 - Timeline of movie releases from her early to modern movies.
-  <img width="1414" height="2000" alt="MOVIES" src="https://github.com/user-attachments/assets/edcc644a-3dad-462c-ab56-a1d8809295f9" />
+  <img width="510" height="900" alt="MOVIES" src="https://github.com/user-attachments/assets/edcc644a-3dad-462c-ab56-a1d8809295f9" />
 
 
 **Barbie Series: Adventures in Friendship**\
@@ -34,7 +34,7 @@ Purpose: Explore Barbie’s TV and online series that highlight fun, friendship,
 **Content:**
 - Overview of series such as Barbie: Life in the Dreamhouse and Barbie Dreamhouse Adventures.
 - Episode highlights and memorable quotes.
-  <img width="1414" height="2000" alt="SHOWS" src="https://github.com/user-attachments/assets/9af8e924-b6eb-4d4c-abb6-e0c8f1a2ee0d" />
+  <img width="510" height="900" alt="SHOWS" src="https://github.com/user-attachments/assets/9af8e924-b6eb-4d4c-abb6-e0c8f1a2ee0d" />
 
 
 **Main Characters: Meet Barbie and Her Friends 💋**\
@@ -44,7 +44,7 @@ Purpose: Introduce Barbie and the main characters that make her world shine.\
 - Description of each character’s personality, hobbies, and role in Barbie’s life.
 - “Fun Fact” section about each character.
 - Group photo or illustrated collage of the main cast.
-  <img width="1414" height="2000" alt="CHARACTERS" src="https://github.com/user-attachments/assets/05bd0981-bacd-4560-8b4d-ab09e87d13b3" />
+  <img width="510" height="900" alt="CHARACTERS" src="https://github.com/user-attachments/assets/05bd0981-bacd-4560-8b4d-ab09e87d13b3" />
 
 
 **Barbie’s Closet: Style through Times👗**\
@@ -53,7 +53,7 @@ This will highlight Barbie’s influence on fashion and her ever-changing wardro
 - Showcase of Barbie’s most iconic outfits!
 - Style gallery (career looks, fantasy gowns, casual outfits, etc.).
 - “Behind the Design” section featuring Barbie’s fashion collaborations.
-  <img width="1414" height="2000" alt="FASHION" src="https://github.com/user-attachments/assets/cc4edfd6-b1d4-4e17-9c0c-dfce2833e671" />
+  <img width="510" height="900" alt="FASHION" src="https://github.com/user-attachments/assets/cc4edfd6-b1d4-4e17-9c0c-dfce2833e671" />
 
 **Overview**
 - This updated proposal expands the existing Barbie’s World website by integrating HTML forms that allow user interaction through a Shop feature. 
@@ -88,7 +88,7 @@ Purpose: Confirm login details and order submission.\
 - Displays user’s name and email
 - Shows last order summary
 - Logout button (clears stored login data)
-<img width="1414" height="2000" alt="LOG IN" src="https://github.com/user-attachments/assets/51057e27-853f-4cdb-bf77-9d5e48627aca" />
+<img width="510" height="900" alt="LOG IN" src="https://github.com/user-attachments/assets/51057e27-853f-4cdb-bf77-9d5e48627aca" />
 
 
 
@@ -98,7 +98,7 @@ Purpose: Allow logged-in users to browse and select Barbie merchandise.\
 - Displays products such as the barbie dolls
 - “Add to Basket” buttons
 - Requires user to be logged in
-<img width="1414" height="2000" alt="SHOP" src="https://github.com/user-attachments/assets/2b4a165a-0f01-4a0c-9c03-01def158bc5c" />
+<img width="510" height="900" alt="SHOP" src="https://github.com/user-attachments/assets/2b4a165a-0f01-4a0c-9c03-01def158bc5c" />
 
 
 3.**Basket / Cart Page – My Barbie Basket🧺**\
@@ -109,5 +109,5 @@ Purpose: Display items selected by the user and calculate total payment.\
 - Total amount to be paid
 - Checkout button
 - Displays personalized order summary
-<img width="1414" height="2000" alt="BASKET" src="https://github.com/user-attachments/assets/964d9eea-0bad-4984-b0b5-084e9c322728" />
+<img width="510" height="900" alt="BASKET" src="https://github.com/user-attachments/assets/964d9eea-0bad-4984-b0b5-084e9c322728" />
 
