@@ -18,7 +18,7 @@ Step into the glamorous and fashionable world of Barbie! This website showcases 
 **Content:**
 - Brief history of Barbie from her 1959 debut to her modern evolution.
 - Highlights of what visitors can explore across the site (Movies, Series, Characters, Fashion).
-  <img width="1010" height="1500" alt="HOME" src="https://github.com/user-attachments/assets/b407bf50-6494-4ebc-b3e5-ce4b2d6b2d5a" />
+  <img width="510" height="900" alt="HOME" src="https://github.com/user-attachments/assets/b407bf50-6494-4ebc-b3e5-ce4b2d6b2d5a" />
 
 
 **Barbie Movies: Lights, Camera, Action!**\
