@@ -5,6 +5,7 @@
 **Updated Basket / Cart Page – My Barbie Basket🧺**\
 Purpose: Display items selected by the user and calculate total payment.\
 CRUD and Use of localStorage: When the user logs in, the user will be able to shop and afterwards view their cart where it displays the items they have checked out and the total payment. In the cart page, they can control the number of items presented in the basket by either adding or deleting items from the cart showcase itself. After deleting or adding, the total amount to pay updates as the adding or deleting of items. Once they log out, whatever in their cart remains and gets saved so that when they log back in, the items that they preiously put in their cart are still there.\
+
 **Features:**
 - List of selected items
 - Quantity and price summary
