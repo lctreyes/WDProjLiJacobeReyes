@@ -1,5 +1,6 @@
 # WDProjLiJacobeReyes
 **CRUD**
+<img width="510" height="900" alt="FASHION" src="https://github.com/user-attachments/assets/060ec869-4667-44a6-b3a2-3537baab3c90" />
 
 
 
